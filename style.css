@@ -1,0 +1,93 @@
+
+body{
+    border: 3px dotted rgb(71, 10, 238);
+    width: 100%;
+    margin: 10px;
+    /* overflow: hidden; */
+    /* background-color: cadetblue; */
+    padding: 30px;
+}
+form{
+    /* margin: 200px auto 0 auto; */
+    display: flex;
+    flex-direction: column;
+}
+#code{
+    text-align: center;
+}
+
+#container{width:100%;}
+#container img{
+    height: 90px;
+}
+#left{float:left;width:100px;}
+#right{float:right;width:100px;}
+#center{margin:0 auto;width:100px;}
+
+#first_part{
+    display: flex;
+}
+#logo{
+    left: 40%;
+}
+#photo{
+    left: 80%;
+}
+.nsctc{
+    text-align: center;
+}
+.heading{
+    /* background-color: red;  */
+  background-image: linear-gradient(red, yellow);
+    font-size: 70px;
+}
+.heading_two{
+    color: rgb(0, 217, 255);
+}
+.heading_three{
+    color: rgb(89, 0, 255);
+}
+.heading_four{
+    color: rgb(255, 102, 0);
+}
+.container {
+  height: 100px;
+  position: relative;
+}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#button{
+    font-size: 30px;
+    background-image: linear-gradient(red, yellow);
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-image: linear-gradient( tomato, yellow);
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input{
+    width: 200px;
+    margin: 10px;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+h4{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
